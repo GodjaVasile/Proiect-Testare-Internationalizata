@@ -1,18 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>
-        <h id="titlu">Alege Limba</h>
-        <div>
-            <li><a href="EnVersion/LandingPage.html">EN</a></li>
-            <li><a href="RoVersion/LandingPage.html">RO</a></li>
-        </div>
-    </div>
-</body>
+<html>
+  <head>
+    <title>Index Page</title>
+    <style>
+        body {
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: darkblue;
+  padding: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: larger;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to our Page</h1>
+    <p>Please choose your language:</p>
+    <button onclick="location.href='EnVersion/LandingPage.html'">English</button>
+    <button onclick="location.href='RoVersion/LandingPage.html'">Romanian</button>
+  </body>
 </html>
